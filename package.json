@@ -2,6 +2,7 @@
   "name": "type-exercises",
   "version": "1.0.0",
   "description": "Repository made for praticing typescript.",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,5 +13,8 @@
   "dependencies": {
     "axios": "^0.27.2",
     "type-exercises": "file:"
+  },
+  "ts-node": {
+    "esm": true
   }
 }
